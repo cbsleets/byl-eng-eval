@@ -1,0 +1,112 @@
+[
+  {
+    "id": "builder",
+    "name": "Builder",
+    "role_desc": "Builders are oriented toward creation. They feel most alive when turning ideas into tangible reality—shipping, assembling, constructing, or making progress visible. Builders are less concerned with perfection than with momentum. For them, something imperfect that exists is almost always better than something perfect that does not.",
+    "core_drive": "To create something real and concrete that did not previously exist.",
+    "most_like_when": "You are actively making progress, building systems, shipping work, or seeing your efforts materialize into something others can use.",
+    "core_rank_desc": "You default to action. You are energized by starting and finishing things, and you may become impatient with excessive planning or discussion. You tend to measure success by output and movement.",
+    "peripheral_rank_desc": "You are more comfortable thinking, advising, or supporting than creating directly. You may prefer refinement, analysis, or stewardship over building from scratch.",
+    "top_rank_desc": "Creating is central to your identity. Not building something can feel like stagnation. You often seek roles, projects, or environments where you can point to concrete outcomes and say, “I made that.”",
+    "bottom_rank_desc": "Creation is rarely how you define yourself. You may actively avoid ownership of deliverables, preferring to influence outcomes indirectly or focus on people, ideas, or systems rather than outputs."
+  },
+  {
+    "id": "leader",
+    "name": "Leader",
+    "role_desc": "Leaders orient around direction and responsibility. They are comfortable being visible, making decisions that affect others, and setting a course forward. Leadership here is about identity, not authority—some people feel like leaders regardless of title, while others do not seek that role even when placed in it.",
+    "core_drive": "To provide direction, clarity, and alignment for others.",
+    "most_like_when": "You are setting priorities, making calls, or taking responsibility for outcomes that extend beyond your own work.",
+    "core_rank_desc": "You naturally step forward when direction is needed. You are comfortable owning decisions and being accountable for results. Ambiguity often feels like an invitation to lead.",
+    "peripheral_rank_desc": "You prefer contributing without being the focal point. You may find leadership draining or unnecessary, especially if it pulls you away from hands-on or individual work.",
+    "top_rank_desc": "Leadership is core to how you see yourself. You often feel responsible for outcomes even when responsibility is not formally assigned. Being “just a contributor” may feel limiting.",
+    "bottom_rank_desc": "Leadership feels misaligned with your identity. You may actively avoid roles that require visibility, authority, or responsibility for others’ performance."
+  },
+  {
+    "id": "expert",
+    "name": "Expert",
+    "role_desc": "Experts value depth, mastery, and precision. They define themselves by what they know and how well they understand it. Being trusted for specialized knowledge is deeply affirming, and credibility matters.",
+    "core_drive": "To achieve mastery and be relied upon for expertise.",
+    "most_like_when": "Others seek you out for answers, judgment, or deep understanding in a specific domain.",
+    "core_rank_desc": "You invest heavily in learning and refinement. You care about correctness and nuance, and may resist oversimplification or premature conclusions.",
+    "peripheral_rank_desc": "You are comfortable operating without deep specialization. Breadth, exploration, or adaptability matters more than being the authority on any one thing.",
+    "top_rank_desc": "Your identity is tightly linked to what you know. Being seen as uninformed or unprepared can feel especially threatening. You are motivated by credibility and competence.",
+    "bottom_rank_desc": "Expertise is not central to how you define yourself. You may intentionally avoid narrow specialization in favor of generalist or relational identities."
+  },
+  {
+    "id": "innovator",
+    "name": "Innovator",
+    "role_desc": "Innovators are drawn to novelty and possibility. They enjoy questioning assumptions, reframing problems, and imagining alternatives. Stability can feel constraining; change feels energizing.",
+    "core_drive": "To explore new ideas and challenge the status quo.",
+    "most_like_when": "You are generating new approaches, experimenting, or proposing ideas that others have not considered.",
+    "core_rank_desc": "You are comfortable with ambiguity and risk. You may grow bored with repetition or maintenance and prefer environments that reward creativity.",
+    "peripheral_rank_desc": "You prefer proven approaches and incremental improvement. Reliability and consistency feel more important than novelty.",
+    "top_rank_desc": "Innovation is core to your identity. You may feel constrained or disengaged in environments that resist change or experimentation.",
+    "bottom_rank_desc": "You have little interest in novelty for its own sake. You may actively avoid roles that emphasize disruption or experimentation."
+  },
+  {
+    "id": "organizer",
+    "name": "Organizer",
+    "role_desc": "Organizers bring order to complexity. They are attuned to structure, systems, and coordination. Where others see chaos, organizers see opportunities for clarity and efficiency.",
+    "core_drive": "To create structure, clarity, and reliable processes.",
+    "most_like_when": "You are designing systems, coordinating efforts, or bringing order to messy situations.",
+    "core_rank_desc": "You notice inefficiencies quickly and feel compelled to fix them. You value plans, documentation, and clear responsibilities.",
+    "peripheral_rank_desc": "You are tolerant of messiness and ambiguity. Structure may feel restrictive or unnecessary.",
+    "top_rank_desc": "Organization is central to how you add value. Disorder is draining, and clarity feels deeply satisfying.",
+    "bottom_rank_desc": "You have little interest in coordination or systems. You may rely on others to provide structure or actively resist it."
+  },
+  {
+    "id": "connector",
+    "name": "Connector",
+    "role_desc": "Connectors focus on relationships and synthesis. They naturally see links between people, ideas, or domains and enjoy facilitating collaboration.",
+    "core_drive": "To create connection and shared understanding.",
+    "most_like_when": "You are bringing people together, translating between perspectives, or facilitating collaboration.",
+    "core_rank_desc": "You are attentive to dynamics and relationships. You often act as a bridge or integrator.",
+    "peripheral_rank_desc": "You prefer working independently or within clearly defined boundaries. Relationships are secondary to tasks or ideas.",
+    "top_rank_desc": "Connection is core to your identity. Isolation or siloed work feels deeply misaligned.",
+    "bottom_rank_desc": "You rarely define yourself through relationships. You may actively avoid social coordination roles."
+  },
+  {
+    "id": "supporter",
+    "name": "Supporter",
+    "role_desc": "Supporters derive meaning from enabling others. Their satisfaction comes from helping, mentoring, and removing obstacles.",
+    "core_drive": "To help others succeed.",
+    "most_like_when": "You are assisting, mentoring, or providing support that allows others to move forward.",
+    "core_rank_desc": "You are attentive to others’ needs and may put collective success ahead of personal recognition.",
+    "peripheral_rank_desc": "You focus primarily on your own contributions and outcomes rather than supporting others.",
+    "top_rank_desc": "Helping others is central to your identity. Seeing others succeed because of your support is deeply fulfilling.",
+    "bottom_rank_desc": "You do not identify strongly with a support role and may avoid positions centered on service or enablement."
+  },
+  {
+    "id": "strategist",
+    "name": "Strategist",
+    "role_desc": "Strategists think in systems and time horizons. They are oriented toward long-term implications, tradeoffs, and direction rather than immediate action.",
+    "core_drive": "To understand the big picture and guide long-term outcomes.",
+    "most_like_when": "You are anticipating future scenarios, prioritizing options, or designing long-term approaches.",
+    "core_rank_desc": "You naturally zoom out and may become frustrated with short-term thinking or reactive decision-making.",
+    "peripheral_rank_desc": "You prefer focusing on immediate tasks and concrete execution rather than long-term planning.",
+    "top_rank_desc": "Strategic thinking is central to your identity. You are motivated by foresight and alignment over time.",
+    "bottom_rank_desc": "You have little interest in long-term planning and may find abstract strategy disengaging."
+  },
+  {
+    "id": "challenger",
+    "name": "Challenger",
+    "role_desc": "Challengers test assumptions and push standards. They are comfortable with disagreement and see friction as a path to improvement.",
+    "core_drive": "To improve outcomes by questioning and challenging.",
+    "most_like_when": "You are asking hard questions, pushing back, or raising uncomfortable truths.",
+    "core_rank_desc": "You value honesty over harmony and are willing to create tension in service of better results.",
+    "peripheral_rank_desc": "You prioritize alignment and cohesion over challenge. You may avoid conflict even when you disagree.",
+    "top_rank_desc": "Challenging is central to how you contribute. You feel responsible for raising issues others avoid.",
+    "bottom_rank_desc": "You strongly avoid confrontation and do not identify with a critical or oppositional stance."
+  },
+  {
+    "id": "caretaker",
+    "name": "Caretaker",
+    "role_desc": "Caretakers focus on protection, continuity, and well-being. They value stability and trust, often acting as stewards of people, culture, or resources.",
+    "core_drive": "To protect and sustain what matters.",
+    "most_like_when": "You are maintaining stability, supporting well-being, or preserving important norms or resources.",
+    "core_rank_desc": "You are sensitive to risk and disruption. You prioritize trust, safety, and continuity.",
+    "peripheral_rank_desc": "You are more oriented toward change and growth than preservation. Stability may feel limiting.",
+    "top_rank_desc": "Caretaking is central to your identity. You feel responsible for safeguarding people or systems.",
+    "bottom_rank_desc": "You rarely define yourself as a protector or steward and may resist roles focused on maintenance or care."
+  }
+]

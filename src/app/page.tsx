@@ -1,64 +1,64 @@
 import Image from "next/image";
+import Link from "next/link";
+import { getAllRoles } from "@/lib/data/roles";
 
 export default function Home() {
+  const rolesData = getAllRoles();
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="relative min-h-screen overflow-hidden bg-[#f8f5f0] font-sans text-[#10131a]">
+      <div className="absolute -left-16 top-16 h-56 w-56 rounded-full bg-[#fde68a]/70 blur-3xl" />
+      <div className="absolute right-10 top-40 h-72 w-72 rounded-full bg-[#a5b4fc]/40 blur-3xl" />
+      <div className="absolute -bottom-30 left-1/3 h-80 w-80 rounded-full bg-[#fecdd3]/60 blur-3xl" />
+
+      <main className="relative z-10 mx-auto flex w-full max-w-5xl flex-col gap-12 px-6 pb-24 pt-20 sm:px-10">
+        <section className="flex flex-col gap-6 text-left">
+          <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[#6b7280]">
+            Role identity ranking
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+          <h1 className="text-balance text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">
+            Find the roles that feel most like{" "}
+            <span className="italic font-serif font-medium">you.</span>
+          </h1>
+          <p className="max-w-2xl text-lg leading-8 text-[#525866]">
+            A quick ranking reveals which identity lenses you lead with and
+            which ones sit in the background.
+          </p>
+          <div>
+            <Link
+              href="/discover"
+              className="inline-flex h-12 items-center justify-center rounded-full bg-[#10131a] px-6 text-sm font-semibold uppercase tracking-[0.22em] text-white transition hover:translate-y-[-2px] hover:bg-black"
+            >
+              View sample summary
+            </Link>
+          </div>
+        </section>
+
+        <section className="rounded-[28px] border border-black/10 bg-white/80 p-6 shadow-[0_30px_60px_-45px_rgba(15,23,42,0.35)] backdrop-blur sm:p-8">
+          <div className="flex items-center justify-between">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[#6b7280]">
+              The ten roles
+            </p>
+          </div>
+
+          <div className="mt-6 overflow-hidden">
+            <div className="flex w-max gap-4 animate-role-loop">
+              {[...rolesData, ...rolesData].map((role, index) => (
+                <div
+                  key={`${role.id}-${index}`}
+                  className="flex w-37.5 flex-col items-center gap-3 rounded-2xl border border-black/10 bg-white px-4 py-4 text-sm font-semibold text-[#10131a] shadow-sm"
+                >
+                  <Image
+                    src={`/roles/${role.id}.svg`}
+                    alt={`${role.name} symbol`}
+                    width={36}
+                    height={36}
+                  />
+                  <span>{role.name}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );

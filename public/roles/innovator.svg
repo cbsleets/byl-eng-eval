@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#F5F3FF" stroke="#7C3AED" stroke-width="4"/>
+  <!-- Bulb -->
+  <path d="M32 16c8 0 14 6 14 14 0 6-3.5 10-7.5 12.5V46H25.5v-3.5C21.5 40 18 36 18 30c0-8 6-14 14-14z"
+        fill="#8B5CF6"/>
+  <!-- Base -->
+  <path d="M26 46h12v4H26z" fill="#4C1D95"/>
+  <path d="M28 52h8v3h-8z" fill="#4C1D95"/>
+  <!-- Rays -->
+  <path d="M32 12v4" stroke="#DDD6FE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M18 22l4 2" stroke="#DDD6FE" stroke-width="4" stroke-linecap="round"/>
+  <path d="M46 22l-4 2" stroke="#DDD6FE" stroke-width="4" stroke-linecap="round"/>
+</svg>

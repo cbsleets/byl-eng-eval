@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#FFF1F2" stroke="#E11D48" stroke-width="4"/>
+  <!-- Heart -->
+  <path d="M32 42c-8-5.2-12-9.3-12-14.2 0-3.5 2.8-6.3 6.3-6.3 2 0 3.8.9 5 2.4l.7.9.7-.9c1.2-1.5 3-2.4 5-2.4 3.5 0 6.3 2.8 6.3 6.3 0 4.9-4 9-12 14.2z"
+        fill="#FB7185"/>
+  <!-- Hands (cupped) -->
+  <path d="M16 42c6 0 10 8 16 8s10-8 16-8" fill="none" stroke="#BE123C" stroke-width="4" stroke-linecap="round"/>
+  <path d="M20 46c4 0 7 6 12 6s8-6 12-6" fill="none" stroke="#E11D48" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+</svg>
