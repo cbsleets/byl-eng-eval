@@ -23,9 +23,5 @@ export default async function Breakdown() {
     }))
     .sort((a, b) => b.score - a.score);
 
-  return (
-    <div className="min-h-screen bg-[#f8f5f0]">
-      <BreakdownClient sortedRoles={sortedRoles} />
-    </div>
-  );
+  return <BreakdownClient sortedRoles={sortedRoles} />;
 }

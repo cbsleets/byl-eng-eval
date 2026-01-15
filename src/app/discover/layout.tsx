@@ -1,12 +1,14 @@
+import DiscoverNav from "./DiscoverNav";
+
 export default function DiscoverLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <>
-      <nav className="m-10">[Navbar goes in layout.]</nav>
-      <main className="m-10">{children}</main>
-    </>
+    <div className="min-h-screen bg-[#f8f5f0]">
+      <DiscoverNav />
+      <main>{children}</main>
+    </div>
   );
 }
