@@ -1,4 +1,5 @@
 import DiscoverNav from "./DiscoverNav";
+import { AIProvider } from "./AIContext";
 
 export default function DiscoverLayout({
   children,
@@ -6,9 +7,11 @@ export default function DiscoverLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="min-h-screen bg-[#f8f5f0]">
-      <DiscoverNav />
-      <main>{children}</main>
-    </div>
+    <AIProvider>
+      <div className="min-h-screen bg-[#f8f5f0]">
+        <DiscoverNav />
+        <main>{children}</main>
+      </div>
+    </AIProvider>
   );
 }
